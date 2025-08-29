@@ -1,0 +1,51 @@
+version: '3.9'
+
+services:
+  web2:
+    build: ./springboot-app2
+    container_name: springboot_app2
+    ports:
+      - "9090:8880"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db2:3306/demo_db2?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1212
+      - SPRING_DATA_REDIS_URL=redis://redis2:6379/0
+    depends_on:
+      db2:
+        condition: service_healthy
+      redis2:
+        condition: service_healthy
+    restart: always
+
+  db2:
+    image: mysql:8.0
+    container_name: mysql_db2
+    environment:
+      - MYSQL_ROOT_PASSWORD=1212
+      - MYSQL_DATABASE=demo_db2
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p1212"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - mysql_data2:/var/lib/mysql
+    ports:
+      - "3336:3306"
+    restart: always
+
+  redis2:
+    image: redis:7-alpine
+    container_name: redis2
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: always
+
+volumes:
+  mysql_data2:

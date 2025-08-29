@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./springboot-app
+    container_name: springboot_app
+    ports:
+      - "8800:8800"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/demo_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1234
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always
+
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_DATABASE=demo_db
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p1234"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3366:3306"
+    restart: always
+
+volumes:
+  mysql_data:
