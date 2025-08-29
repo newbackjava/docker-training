@@ -13,3 +13,5 @@
 
 <img width="1409" height="750" alt="스크린샷 2025-08-29 18 47 05" src="https://github.com/user-attachments/assets/b6120d31-ed05-4116-bb9d-798f1df41c84" />
 <img width="1413" height="741" alt="스크린샷 2025-08-29 18 47 43" src="https://github.com/user-attachments/assets/f4acb5ec-1830-45f6-b280-48398b6a6b46" />
+<img width="1411" height="747" alt="스크린샷 2025-08-29 18 49 19" src="https://github.com/user-attachments/assets/4662ffb9-fdc0-4df3-a776-da7104b6088c" />
+<img width="1413" height="749" alt="스크린샷 2025-08-29 18 49 58" src="https://github.com/user-attachments/assets/074716cb-7e63-48ea-b1e0-46fad4c76485" />
