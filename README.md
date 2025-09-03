@@ -9,8 +9,6 @@ https://drive.google.com/drive/folders/18GqtLGJL_lyUEL9sCuEkfNozDbulqCPu?usp=sha
 
 1. docker-linux <br>
 2. docker-command <br>
-https://docs.google.com/presentation/d/1Q49oQz_C1s5_dN1BHgo0nr5kYHs0MlcPWD72YYaMrzc/edit?usp=sharing
-
 3. dockerfile <br>
 https://docs.google.com/presentation/d/11L2BW2u08Tv_pckW7rb3Y1DhH3_QlSSPYUyQg5qivUo/edit?usp=sharing
 
