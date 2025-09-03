@@ -10,7 +10,8 @@ https://drive.google.com/drive/folders/18GqtLGJL_lyUEL9sCuEkfNozDbulqCPu?usp=sha
 1. docker-linux <br>
 2. docker-command <br>
 3. dockerfile <br>
-https://docs.google.com/presentation/d/11L2BW2u08Tv_pckW7rb3Y1DhH3_QlSSPYUyQg5qivUo/edit?usp=sharing
+4. docker-compose <br>
+https://docs.google.com/presentation/d/1EnLQAmxckSsPsmYMXycU9tmiudlzjpLxElZ2BRHFPs8/edit?usp=sharing
 
 <hr>
 
