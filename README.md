@@ -11,7 +11,8 @@ https://drive.google.com/drive/folders/18GqtLGJL_lyUEL9sCuEkfNozDbulqCPu?usp=sha
 2. docker-command <br>
 3. dockerfile <br>
 4. docker-compose <br>
-https://docs.google.com/presentation/d/1EnLQAmxckSsPsmYMXycU9tmiudlzjpLxElZ2BRHFPs8/edit?usp=sharing
+5. docker-aws<br>
+https://docs.google.com/presentation/d/1-dOEx_BkxSyQukmpB6kpzIAsF5svp8ZXXCVbh-bECEg/edit?usp=sharing
 
 <hr>
 
