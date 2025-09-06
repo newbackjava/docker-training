@@ -12,10 +12,11 @@ https://drive.google.com/drive/folders/18GqtLGJL_lyUEL9sCuEkfNozDbulqCPu?usp=sha
 3. dockerfile <br>
 4. docker-compose <br>
 5. docker-aws<br>
-https://docs.google.com/presentation/d/1-dOEx_BkxSyQukmpB6kpzIAsF5svp8ZXXCVbh-bECEg/edit?usp=sharing
+
 
 <hr>
-
+<img width="725" height="418" alt="스크린샷 2025-09-06 21 50 02" src="https://github.com/user-attachments/assets/76624645-e8be-4c2d-8d92-bb5dea4197df" />
+<hr>
 <img width="290" height="257" alt="스크린샷 2025-08-29 18 41 57" src="https://github.com/user-attachments/assets/3a4fb89c-caf1-45c4-b334-1faa2b2e7249" />
 <img width="1392" height="736" alt="스크린샷 2025-08-29 18 43 57" src="https://github.com/user-attachments/assets/b4a53ed0-96b7-43a0-8bbd-177bafab542e" />
 
